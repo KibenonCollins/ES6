@@ -66,5 +66,26 @@ var donut = {
         console.log("Sweetness:" +this.sweetness + "/10");
 }
 
+};
+// donut.showSweetness();
+// donut.sayType();
+
+
+//Constructor pattern for creating objects
+function Donut(type, glazed, sweetness, hasChocolate){
+    this.type = type;
+    this.glazed = glazed;
+    this.sweetness= sweetness;
+    this.hasChocolate = hasChocolate;
+    this.sayType= function(){
+        console.log("Type:" + this.type);
+    }
+    this.showSweetness= function(){
+        console.log("Sweetness:" + this.sweetness + "/10");
+    };
 }
-donut.showSweetness();
+var coconutDonut = new Donut("Coconut",false ,8, true);
+var vanillaDonut = new Donut("Vanilla", true ,10,false);
+coconutDonut.tasteGood=true;
+
+console.log(coconutDonut);
