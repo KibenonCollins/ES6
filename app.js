@@ -27,5 +27,31 @@
 //Objects
 //Collections of name-value pairs
 var myObject = new Object();
-myObject['1'] = "Chris"
-console.log(myObject);
+myObject['1'] = "Chris";
+myObject['2'] = "Kibi";
+myObject['3'] = "Cedy";
+
+var myOtherObject = {
+    1: "Chris",
+    2: "Sally",
+    3: "Bob",
+    4: "Billy",
+    5: "Jane",
+
+};
+myOtherObject['6'] = "Ashley";
+
+var anotherObject ={
+    firstName : "Collins",
+    lastName : "Kibiwott",
+    age :23,
+    numbers: {
+        mobile:"0713287888",
+        home: "0743457890",
+    },
+    address: "123 Nairobi",
+}
+
+//console.log(anotherObject.numbers.home);
+
+
