@@ -13,8 +13,13 @@
 //The following evaluates to true
 var hasContent = "jjdjdxn"
 console.log(Boolean(hasContent));
+var myArray = [];
 
 //the following evaluates to false
 var doesnotHaveContent = "";
 var isZero =0 ;
-console.log(Boolean(isZero));
+var nonAssignedVariable;
+var isfalse = false;
+var isNotANumber = NaN;
+
+console.log(null ===undefined);
