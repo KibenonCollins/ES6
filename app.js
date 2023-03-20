@@ -93,7 +93,16 @@ coconutDonut.tasteGood=true;
 //Collection of data
 
 var myNamesArray= ["Kibenon","Chris","Jessica","John"];
-myNamesArray.push("Lesley");
+// myNamesArray.push("Lesley");
+// var myOtherNames =["Jake","Sheldon", "Adam"];
+// var concattedArray = myNamesArray.concat(myOtherNames) 
 
-var sortedArray =myNamesArray.sort();
-console.log(myNamesArray);
+// var sortedArray =concattedArray.sort();
+//var joinedArray = myNamesArray.join(",")
+
+// var slicedArray = concattedArray.slice(5,7);
+
+var myDonuts = [coconutDonut, vanillaDonut];
+var lastDonut = myDonuts[1];
+
+lastDonut.sayType();
