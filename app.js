@@ -88,4 +88,26 @@ var coconutDonut = new Donut("Coconut",false ,8, true);
 var vanillaDonut = new Donut("Vanilla", true ,10,false);
 coconutDonut.tasteGood=true;
 
-console.log(coconutDonut);
+
+//Arrays
+//Collection of data
+
+var myNamesArray= ["Kibenon","Chris","Jessica","John"];
+// myNamesArray.push("Lesley");
+// var myOtherNames =["Jake","Sheldon", "Adam"];
+// var concattedArray = myNamesArray.concat(myOtherNames) 
+
+// var sortedArray =concattedArray.sort();
+//var joinedArray = myNamesArray.join(",")
+
+// var slicedArray = concattedArray.slice(5,7);
+
+// var myDonuts = [coconutDonut, vanillaDonut];
+// var donutLength = myDonuts.length;
+// var lastDonut = myDonuts[donutLength-1];
+
+// lastDonut.sayType();
+// lastDonut.showSweetness();
+
+var slicedArray = myNamesArray.slice(myNamesArray.length-1);
+//console.log(slicedArray);
