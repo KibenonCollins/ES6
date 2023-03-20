@@ -102,7 +102,12 @@ var myNamesArray= ["Kibenon","Chris","Jessica","John"];
 
 // var slicedArray = concattedArray.slice(5,7);
 
-var myDonuts = [coconutDonut, vanillaDonut];
-var lastDonut = myDonuts[1];
+// var myDonuts = [coconutDonut, vanillaDonut];
+// var donutLength = myDonuts.length;
+// var lastDonut = myDonuts[donutLength-1];
 
-lastDonut.sayType();
+// lastDonut.sayType();
+// lastDonut.showSweetness();
+
+var slicedArray = myNamesArray.slice(myNamesArray.length-1);
+//console.log(slicedArray);
