@@ -88,4 +88,8 @@ var coconutDonut = new Donut("Coconut",false ,8, true);
 var vanillaDonut = new Donut("Vanilla", true ,10,false);
 coconutDonut.tasteGood=true;
 
-console.log(coconutDonut);
+
+//Arrays
+//Collection of data
+
+var myNamesArray= new Array();
