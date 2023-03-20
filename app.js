@@ -92,4 +92,8 @@ coconutDonut.tasteGood=true;
 //Arrays
 //Collection of data
 
-var myNamesArray= new Array();
+var myNamesArray= ["Kibenon","Chris","Jessica","John"];
+myNamesArray.push("Lesley");
+
+var sortedArray =myNamesArray.sort();
+console.log(myNamesArray);
