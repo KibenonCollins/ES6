@@ -115,11 +115,58 @@ var slicedArray = myNamesArray.slice(myNamesArray.length-1);
 
 //Variables and Constant
 
-var myName = "Chris";
-var myNum = 24;
-var myArray = [1,2,3,4, "Kibi", "Cedy"];
-var myObject = {
-    name:"Chris", age: 30, personality:"Introvert"
-};
-console.log(myObject);
-console.log(myArray);
+// var myName = "Chris";
+// function sayHi(){
+//     console.log("Hi" + " " +myName)
+// }
+// sayHi()
+//  var count = 1;
+//  function increase(){
+//     count+= 1;
+//     console.log(count)
+
+
+//  }
+//  increase();
+
+                 // LET AND CONST
+// function sayHi(){
+// let shouldSayHi = false;
+// let myName;
+
+// if (shouldSayHi===true){
+//     let myName = "Chris";
+//     console.log("Hi"+" "+ myName);
+// }else{
+//     let myName = "Lesley";
+//     console.log("Hi"+" "+ myName);
+
+// }
+
+// }
+// sayHi();
+
+
+
+// const MYNAME = "Chris";
+// console.log(MYNAME);
+
+// // const cannot be assigned a new variable since its Constant.
+
+// const myObjects = {
+//     name:"Chris",
+//     age:30
+// }
+// console.log(myObjects);
+// myObjects.name= "Bob";
+// myObjects.age = 25;
+// console.log(myObjects);
+
+
+function sayHi(){
+    if(true){
+        const myName ="Jim";
+        console.log(myName);;
+    }
+}
+sayHi();
