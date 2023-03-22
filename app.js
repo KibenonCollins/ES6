@@ -115,11 +115,17 @@ var slicedArray = myNamesArray.slice(myNamesArray.length-1);
 
 //Variables and Constant
 
-var myName = "Chris";
-var myNum = 24;
-var myArray = [1,2,3,4, "Kibi", "Cedy"];
-var myObject = {
-    name:"Chris", age: 30, personality:"Introvert"
-};
-console.log(myObject);
-console.log(myArray);
+// var myName = "Chris";
+// function sayHi(){
+//     console.log("Hi" + " " +myName)
+// }
+// sayHi()
+//  var count = 1;
+//  function increase(){
+//     count+= 1;
+//     console.log(count)
+
+
+//  }
+//  increase();
+
