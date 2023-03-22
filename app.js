@@ -129,3 +129,4 @@ var slicedArray = myNamesArray.slice(myNamesArray.length-1);
 //  }
 //  increase();
 
+var myName = "Chris";
