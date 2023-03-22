@@ -148,16 +148,25 @@ var slicedArray = myNamesArray.slice(myNamesArray.length-1);
 
 
 
-const MYNAME = "Chris";
-console.log(MYNAME);
+// const MYNAME = "Chris";
+// console.log(MYNAME);
 
-// const cannot be assigned a new variable since its Constant.
+// // const cannot be assigned a new variable since its Constant.
 
-const myObjects = {
-    name:"Chris",
-    age:30
+// const myObjects = {
+//     name:"Chris",
+//     age:30
+// }
+// console.log(myObjects);
+// myObjects.name= "Bob";
+// myObjects.age = 25;
+// console.log(myObjects);
+
+
+function sayHi(){
+    if(true){
+        const myName ="Jim";
+        console.log(myName);;
+    }
 }
-console.log(myObjects);
-myObjects.name= "Bob";
-myObjects.age = 25;
-console.log(myObjects);
+sayHi();
