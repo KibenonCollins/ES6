@@ -129,4 +129,19 @@ var slicedArray = myNamesArray.slice(myNamesArray.length-1);
 //  }
 //  increase();
 
-var myName = "Chris";
+                 // LET AND CONST
+function sayHi(){
+let shouldSayHi = false;
+let myName;
+
+if (shouldSayHi===true){
+    let myName = "Chris";
+    console.log("Hi"+" "+ myName);
+}else{
+    let myName = "Lesley";
+    console.log("Hi"+" "+ myName);
+
+}
+
+}
+sayHi();
