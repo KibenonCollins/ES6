@@ -130,18 +130,34 @@ var slicedArray = myNamesArray.slice(myNamesArray.length-1);
 //  increase();
 
                  // LET AND CONST
-function sayHi(){
-let shouldSayHi = false;
-let myName;
+// function sayHi(){
+// let shouldSayHi = false;
+// let myName;
 
-if (shouldSayHi===true){
-    let myName = "Chris";
-    console.log("Hi"+" "+ myName);
-}else{
-    let myName = "Lesley";
-    console.log("Hi"+" "+ myName);
+// if (shouldSayHi===true){
+//     let myName = "Chris";
+//     console.log("Hi"+" "+ myName);
+// }else{
+//     let myName = "Lesley";
+//     console.log("Hi"+" "+ myName);
 
+// }
+
+// }
+// sayHi();
+
+
+
+const MYNAME = "Chris";
+console.log(MYNAME);
+
+// const cannot be assigned a new variable since its Constant.
+
+const myObjects = {
+    name:"Chris",
+    age:30
 }
-
-}
-sayHi();
+console.log(myObjects);
+myObjects.name= "Bob";
+myObjects.age = 25;
+console.log(myObjects);
