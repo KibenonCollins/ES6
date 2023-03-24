@@ -176,9 +176,10 @@
 // IF STATEMENT
 //If (expression) {statement} to be executed if expression evaluates truthy or falsey statement
 
-const myFirstNumber = 110;
-const mySecondNumber = 120;
+const bankAccountBalance = 124;
+const costOfItem = 123;
+const tax = 0.50;
 
-if (myFirstNumber < mySecondNumber){
-    console.log("You cannot purchase this item")
+if(bankAccountBalance !== costOfItem +tax){
+    console.log("I am running")
 }
