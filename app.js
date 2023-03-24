@@ -174,12 +174,14 @@ var slicedArray = myNamesArray.slice(myNamesArray.length-1);
 
 
 // IF STATEMENT
+//If (expression) {statement} to be executed if expression evaluates truthy or falsey statement
 
-const shouldSayHi = false;
+const numberFive = 5;
 
-if (shouldSayHi===true){
-    console.log("Hi there")
 
-}else {
-    console.log("Huuh")
-}
+const stringFive = "5";
+const stringConversion = parseInt(stringFive);
+
+console.log(numberFive+ stringConversion);
+
+
