@@ -176,7 +176,9 @@
 // IF STATEMENT
 //If (expression) {statement} to be executed if expression evaluates truthy or falsey statement
 
-const myArray =[1,2,3];
-const myOtherArray = [1,2,3];
+const myFirstNumber = 110;
+const mySecondNumber = 120;
 
-console.log(myArray === myOtherArray);
+if (myFirstNumber < mySecondNumber){
+    console.log("You cannot purchase this item")
+}
