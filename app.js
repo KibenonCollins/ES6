@@ -163,10 +163,23 @@ var slicedArray = myNamesArray.slice(myNamesArray.length-1);
 // console.log(myObjects);
 
 
-function sayHi(){
-    if(true){
-        const myName ="Jim";
-        console.log(myName);;
-    }
+// function sayHi(){
+//     if(true){
+//         const myName ="Jim";
+//         console.log(myName);;
+//     }
+// }
+// sayHi();
+
+
+
+// IF STATEMENT
+
+const shouldSayHi = false;
+
+if (shouldSayHi===true){
+    console.log("Hi there")
+
+}else {
+    console.log("Huuh")
 }
-sayHi();
