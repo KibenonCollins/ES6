@@ -26,90 +26,90 @@
 
 //Objects
 //Collections of name-value pairs
-var myObject = new Object();
-myObject['1'] = "Chris";
-myObject['2'] = "Kibi";
-myObject['3'] = "Cedy";
+// var myObject = new Object();
+// myObject['1'] = "Chris";
+// myObject['2'] = "Kibi";
+// myObject['3'] = "Cedy";
 
-var myOtherObject = {
-    1: "Chris",
-    2: "Sally",
-    3: "Bob",
-    4: "Billy",
-    5: "Jane",
+// var myOtherObject = {
+//     1: "Chris",
+//     2: "Sally",
+//     3: "Bob",
+//     4: "Billy",
+//     5: "Jane",
 
-};
-myOtherObject['6'] = "Ashley";
+// };
+// myOtherObject['6'] = "Ashley";
 
-var anotherObject ={
-    firstName : "Collins",
-    lastName : "Kibiwott",
-    age :23,
-    numbers: {
-        mobile:"0713287888",
-        home: "0743457890",
-    },
-    address: "123 Nairobi",
-}
+// var anotherObject ={
+//     firstName : "Collins",
+//     lastName : "Kibiwott",
+//     age :23,
+//     numbers: {
+//         mobile:"0713287888",
+//         home: "0743457890",
+//     },
+//     address: "123 Nairobi",
+// }
 
-//console.log(anotherObject.numbers.home);
+// //console.log(anotherObject.numbers.home);
 
-var donut = {
-    type:"coconut",
-    glazed :true,
-    sweetness:8,
-    hasChocolate :false,
-    sayType:function(){
-        console.log("Type:" + this.type);
-    },
-    showSweetness: function(){
-        console.log("Sweetness:" +this.sweetness + "/10");
-}
+// var donut = {
+//     type:"coconut",
+//     glazed :true,
+//     sweetness:8,
+//     hasChocolate :false,
+//     sayType:function(){
+//         console.log("Type:" + this.type);
+//     },
+//     showSweetness: function(){
+//         console.log("Sweetness:" +this.sweetness + "/10");
+// }
 
-};
-// donut.showSweetness();
-// donut.sayType();
-
-
-//Constructor pattern for creating objects
-function Donut(type, glazed, sweetness, hasChocolate){
-    this.type = type;
-    this.glazed = glazed;
-    this.sweetness= sweetness;
-    this.hasChocolate = hasChocolate;
-    this.sayType= function(){
-        console.log("Type:" + this.type);
-    }
-    this.showSweetness= function(){
-        console.log("Sweetness:" + this.sweetness + "/10");
-    };
-}
-var coconutDonut = new Donut("Coconut",false ,8, true);
-var vanillaDonut = new Donut("Vanilla", true ,10,false);
-coconutDonut.tasteGood=true;
+// };
+// // donut.showSweetness();
+// // donut.sayType();
 
 
-//Arrays
-//Collection of data
+// //Constructor pattern for creating objects
+// function Donut(type, glazed, sweetness, hasChocolate){
+//     this.type = type;
+//     this.glazed = glazed;
+//     this.sweetness= sweetness;
+//     this.hasChocolate = hasChocolate;
+//     this.sayType= function(){
+//         console.log("Type:" + this.type);
+//     }
+//     this.showSweetness= function(){
+//         console.log("Sweetness:" + this.sweetness + "/10");
+//     };
+// }
+// var coconutDonut = new Donut("Coconut",false ,8, true);
+// var vanillaDonut = new Donut("Vanilla", true ,10,false);
+// coconutDonut.tasteGood=true;
 
-var myNamesArray= ["Kibenon","Chris","Jessica","John"];
-// myNamesArray.push("Lesley");
-// var myOtherNames =["Jake","Sheldon", "Adam"];
-// var concattedArray = myNamesArray.concat(myOtherNames) 
 
-// var sortedArray =concattedArray.sort();
-//var joinedArray = myNamesArray.join(",")
+// //Arrays
+// //Collection of data
 
-// var slicedArray = concattedArray.slice(5,7);
+// var myNamesArray= ["Kibenon","Chris","Jessica","John"];
+// // myNamesArray.push("Lesley");
+// // var myOtherNames =["Jake","Sheldon", "Adam"];
+// // var concattedArray = myNamesArray.concat(myOtherNames) 
 
-// var myDonuts = [coconutDonut, vanillaDonut];
-// var donutLength = myDonuts.length;
-// var lastDonut = myDonuts[donutLength-1];
+// // var sortedArray =concattedArray.sort();
+// //var joinedArray = myNamesArray.join(",")
 
-// lastDonut.sayType();
-// lastDonut.showSweetness();
+// // var slicedArray = concattedArray.slice(5,7);
 
-var slicedArray = myNamesArray.slice(myNamesArray.length-1);
+// // var myDonuts = [coconutDonut, vanillaDonut];
+// // var donutLength = myDonuts.length;
+// // var lastDonut = myDonuts[donutLength-1];
+
+// // lastDonut.sayType();
+// // lastDonut.showSweetness();
+
+// var slicedArray = myNamesArray.slice(myNamesArray.length-1);
 //console.log(slicedArray);
 
 
@@ -163,10 +163,23 @@ var slicedArray = myNamesArray.slice(myNamesArray.length-1);
 // console.log(myObjects);
 
 
-function sayHi(){
-    if(true){
-        const myName ="Jim";
-        console.log(myName);;
-    }
+// function sayHi(){
+//     if(true){
+//         const myName ="Jim";
+//         console.log(myName);;
+//     }
+// }
+// sayHi();
+
+
+
+// IF STATEMENT
+//If (expression) {statement} to be executed if expression evaluates truthy or falsey statement
+
+const bankAccountBalance = 124;
+const costOfItem = 123;
+const tax = 0.50;
+
+if(bankAccountBalance !== costOfItem +tax){
+    console.log("I am running")
 }
-sayHi();
