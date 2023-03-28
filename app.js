@@ -179,7 +179,8 @@
 const bankAccountBalance = 124;
 const costOfItem = 123;
 const hasCreditCard = true;
+const hasReachedCreditLimit = false;
 
-if (bankAccountBalance>= costOfItem || hasCreditCard === false){
-   console.log("You can purchase this item!")
+if(!hasReachedCreditLimit){
+    console.log("Can purchase")
 }
