@@ -178,8 +178,8 @@
 
 const bankAccountBalance = 124;
 const costOfItem = 123;
-const canSpendMoney = true;
+const hasCreditCard = true;
 
-if (bankAccountBalance>= costOfItem && canSpendMoney === true){
+if (bankAccountBalance>= costOfItem || hasCreditCard === false){
    console.log("You can purchase this item!")
 }
