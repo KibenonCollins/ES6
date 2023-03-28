@@ -178,8 +178,8 @@
 
 const bankAccountBalance = 124;
 const costOfItem = 123;
-const tax = 0.50;
+const canSpendMoney = true;
 
-if(bankAccountBalance !== costOfItem +tax){
-    console.log("I am running")
+if (bankAccountBalance>= costOfItem && canSpendMoney === true){
+   console.log("You can purchase this item!")
 }
