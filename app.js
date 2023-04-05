@@ -193,12 +193,11 @@
 
     
 //   Functions  
-const myName = "Chris";
-
-function sayHi(){
-    if(!myName){
-       var myName ="Bob" 
-    }
-    console.log("Hi " + myName);
+const squaredNumber = function(num){
+return num * num ;
 }
-sayHi();
+
+const numberAdder = function(num1,num2){
+return num1 + num2;
+}
+console.log(numberAdder(squaredNumber(4), 10))
