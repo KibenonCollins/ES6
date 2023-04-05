@@ -193,11 +193,12 @@
 
     
 //   Functions  
+const myName = "Chris";
 
-
-function sayHi(firstName, lastName){
-    const myName = "Kibenon";
-    console.log("Hi" + " "+ firstName + " "+ lastName);
+function sayHi(){
+    if(!myName){
+       var myName ="Bob" 
+    }
+    console.log("Hi " + myName);
 }
-sayHi("Billy", "Jones");
-sayHi("Chris", "Smith");
+sayHi();
