@@ -192,10 +192,14 @@
 
 
     
-//   Functions  
-let myNumber =100;
+//   Functions
 
-function addTwenty(num){
-    return num + 20;
+const myNumbers = [1,2,3,4];
+
+function addToArray(myArr){
+    myArr.push(6);
+
 }
-console.log(addTwenty(myNumber));
+console.log(myNumbers);
+addToArray(myNumbers);
+console.log(myNumbers);
