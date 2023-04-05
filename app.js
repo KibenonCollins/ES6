@@ -193,12 +193,9 @@
 
     
 //   Functions  
-const squaredNumber = function(num){
-return num * num ;
-}
+let myNumber =100;
 
-const numberAdder = function(squarer,num2){
-const squared = squarer(4);
-return squared + num2
+function addTwenty(num){
+    return num + 20;
 }
-console.log(numberAdder(squaredNumber, 10))
+console.log(addTwenty(myNumber));
