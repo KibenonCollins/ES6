@@ -192,12 +192,14 @@
 
 
     
-//   Functions  
+//   Functions
 
+const myNumbers = [1,2,3,4];
 
-function sayHi(firstName, lastName){
-    const myName = "Kibenon";
-    console.log("Hi" + " "+ firstName + " "+ lastName);
+function addToArray(myArr){
+    myArr.push(6);
+
 }
-sayHi("Billy", "Jones");
-sayHi("Chris", "Smith");
+console.log(myNumbers);
+addToArray(myNumbers);
+console.log(myNumbers);
