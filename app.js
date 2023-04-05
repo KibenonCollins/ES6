@@ -197,7 +197,8 @@ const squaredNumber = function(num){
 return num * num ;
 }
 
-const numberAdder = function(num1,num2){
-return num1 + num2;
+const numberAdder = function(squarer,num2){
+const squared = squarer(4);
+return squared + num2
 }
-console.log(numberAdder(squaredNumber(4), 10))
+console.log(numberAdder(squaredNumber, 10))
