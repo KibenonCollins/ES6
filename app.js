@@ -176,17 +176,28 @@
 // IF STATEMENT
 //If (expression) {statement} to be executed if expression evaluates truthy or falsey statement
 
-const bankAccountBalance = 1;
-const costOfItem = 123;
-const hasCreditCard = true;
-const hasReachedCreditLimit = false;
+// 
 
-if(bankAccountBalance>= costOfItem){
-console.log("Congrats! You can pay with cash!")
-} else if (hasCreditCard && !hasReachedCreditLimit){
-console.log("You can pay for this with credit")
-}else{
-    console.log("Sorry!!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+//   Functions  
+
+
+function sayHi(firstName, lastName){
+    const myName = "Kibenon";
+    console.log("Hi" + " "+ firstName + " "+ lastName);
 }
-    
-    
+sayHi("Billy", "Jones");
+sayHi("Chris", "Smith");
