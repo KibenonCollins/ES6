@@ -193,11 +193,19 @@
 
     
 //   Functions
-function squareandMultiply(num1, num2){
-
-    function squarer(x){
-        return x * x;
+function personFormatter(firstName, lastName, age){
+    function formatNames(arg1,arg2){
+        return arg1 + " " +arg2;
     }
-    return squarer(num1)* squarer(num2);
+
+function dataFormmater(fullName, num){
+    const formatteddata = {
+        name:fullName,
+        age:num
+    }
+    return formatteddata;
 }
-console.log(squareandMultiply(10,60));
+const formattedName = formatNames(firstName, lastName);
+return dataFormmater(formattedName,age);
+}
+console.log(personFormatter("Chris", "Jones",20))
