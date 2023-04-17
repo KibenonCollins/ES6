@@ -193,13 +193,11 @@
 
     
 //   Functions
+function squareandMultiply(num1, num2){
 
-const myNumbers = [1,2,3,4];
-
-function addToArray(myArr){
-    myArr.push(6);
-
+    function squarer(x){
+        return x * x;
+    }
+    return squarer(num1)* squarer(num2);
 }
-console.log(myNumbers);
-addToArray(myNumbers);
-console.log(myNumbers);
+console.log(squareandMultiply(10,60));
