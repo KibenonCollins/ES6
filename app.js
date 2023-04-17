@@ -231,4 +231,13 @@ const mapUserNames = (myArr) =>
     const numbers = [1,2,3,8,4,5];
 
     const filteredNumbers = numbers.filter((num)=>num % 2 !==0);
-    console.log(filteredNumbers);
+
+    const doubledNumbers = (num) => {
+        const numberContainer = [];
+        num.forEach((n)=> {
+            const doubled = n*2;
+            numberContainer.push(doubled)
+        });
+        return numberContainer;
+    }
+    console.log(doubledNumbers(numbers));
