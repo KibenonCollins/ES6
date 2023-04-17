@@ -193,19 +193,42 @@
 
     
 //   Functions
-function personFormatter(firstName, lastName, age){
-    function formatNames(arg1,arg2){
-        return arg1 + " " +arg2;
-    }
+// function personFormatter(firstName, lastName, age){
+//     function formatNames(arg1,arg2){
+//         return arg1 + " " +arg2;
+//     }
 
-function dataFormmater(fullName, num){
-    const formatteddata = {
-        name:fullName,
-        age:num
-    }
-    return formatteddata;
-}
-const formattedName = formatNames(firstName, lastName);
-return dataFormmater(formattedName,age);
-}
-console.log(personFormatter("Chris", "Jones",20))
+// function dataFormmater(fullName, num){
+//     const formatteddata = {
+//         name:fullName,
+//         age:num
+//     }
+//     return formatteddata;
+// }
+// const formattedName = formatNames(firstName, lastName);
+//     return dataFormmater(formattedName,age);
+// }
+// console.log(personFormatter("Chris", "Jones",20)) 
+
+
+// const multipier = (num1,num2) => {
+//     return num1 * num2 ;
+// }
+// console.log(multipier(5,10))
+
+const users = [
+    { name: "Chris",age:60},
+    {name:"Jane",age:30},
+    {name: "Billy",age:45}
+];
+
+const mapUserNames = (myArr) =>
+     myArr.map((user) => user.age );
+  
+    console.log(mapUserNames(users));
+
+
+    const numbers = [1,2,3,8,4,5];
+
+    const filteredNumbers = numbers.filter((num)=>num % 2 !==0);
+    console.log(filteredNumbers);
